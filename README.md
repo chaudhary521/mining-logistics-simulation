@@ -9,6 +9,7 @@ This project presents a discrete-event simulation model of a multimodal containe
 The goal is to evaluate and optimize resource allocation (trucks, cranes, buffer storage) to reliably meet a monthly export target of 2,000 FEU (Forty-foot Equivalent Units).
 
 🎯 Objectives
+
 Simulate a real-world mining logistics supply chain
 Model system behavior using discrete-event simulation
 Analyze resource constraints and bottlenecks
@@ -20,6 +21,7 @@ Evaluate system performance under variability
 Identify a cost-effective and reliable configuration
 
 ⚙️ System Components
+
 Entities
 Containers (FEU)
 Trucks
@@ -69,14 +71,18 @@ System reliability: ~99.1%
 Monthly throughput: ~97–99% of target
 Daily capacity: up to ~105–106 FEU
 Stable performance under variability conditions
+
 💡 Insights
+
 Trucks are the primary bottleneck resource
 Cranes are sufficiently provisioned at 2 units
 Buffer storage provides resilience against variability
 System performance plateaus after a certain fleet size
 Trade-off exists between cost and reliability
 
+
 🏗️ Implementation Notes
+
 Simulation follows discrete-event modeling principles
 Queueing theory used for system approximation
 Resource utilization constraints applied to avoid overloading
@@ -85,15 +91,25 @@ Event scheduling used for arrivals, departures, and processing
 📁 Suggested Project Structure
 
 /project-root
+
 │
+
 ├── data/
+
 ├── models/
+
 ├── simulation/
+
 ├── results/
+
 ├── figures/
+
 ├── notebooks/
+
 ├── README.md
+
 └── requirements.txt
+
 
 🚀 Future Improvements
 
